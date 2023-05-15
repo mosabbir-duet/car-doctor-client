@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.caroushelSliderPos {
+  @apply absolute flex justify-end transform -translate-y-1/2 right-16 bottom-6;
+}
+
+.caroushelLeftArrow {
+  @apply btn btn-circle mr-5 bg-opacity-40 hover:bg-opacity-50 border-none;
+}
+.caroushelRightArrow {
+  @apply btn btn-circle bg-[#ff0018] hover:bg-red-400 border-none;
+}
